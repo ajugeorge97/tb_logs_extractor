@@ -1,0 +1,17 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tb-logs-extractor"
+version = "0.1.0"
+description = "Export TensorBoard scalar values to CSV"
+readme = "README.md"
+dependencies = [
+    "tensorboard",
+    "pandas",
+    "numpy",
+]
+
+[tool.setuptools]
+py-modules = ["tb_extractor"]

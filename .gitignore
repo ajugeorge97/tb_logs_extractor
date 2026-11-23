@@ -1,0 +1,18 @@
+*
+**
+/*
+/*/*
+.venv
+.*/  # Ignore all folders starting with a dot
+
+!.gitignore
+!README.md
+!CHANGELOG.md
+
+!uv.lock
+!pyproject.toml
+
+
+!/src/
+!/src/*.py
+!*.py
